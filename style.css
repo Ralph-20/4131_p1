@@ -1,6 +1,29 @@
 
 
-ul {
+/* about me */
+
+.aboutme {
+  align-items: left;
+  margin: 50px;
+}
+
+
+/* image */
+
+.imgwrpr {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+
+/* nav stuff */
+
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -8,7 +31,7 @@ ul {
     background-color: #333333;
   }
   
-  li {
+  .navbarli {
     float: left;
   }
   
